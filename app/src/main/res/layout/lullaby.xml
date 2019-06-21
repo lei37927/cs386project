@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lullaby">
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/rain">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/leaves">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/river">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/creek">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/sea">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/tides">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/library">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/koto">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/talk">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/wind">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/piano">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/clock">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/campfire">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/forest">
+
+                        <Button
+                            android:id="@+id/play1"
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:id="@+id/pause1"
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/twitter">
+
+                        <Button
+                            android:id="@+id/play2"
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:id="@+id/pause2"
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/cicada">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/storm">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_margin="90px"
+                        android:background="@drawable/train">
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                        <Button
+                            android:layout_width="90px"
+                            android:layout_height="180px"
+                            android:background="@drawable/button_selector"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
