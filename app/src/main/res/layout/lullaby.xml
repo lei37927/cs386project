@@ -190,7 +190,7 @@
                         android:layout_width="180px"
                         android:layout_height="180px"
                         android:layout_margin="90px"
-                        android:background="@drawable/talk">
+                        android:background="@drawable/train">
 
                         <Button
                             android:layout_width="90px"
@@ -374,7 +374,7 @@
                         android:layout_width="180px"
                         android:layout_height="180px"
                         android:layout_margin="90px"
-                        android:background="@drawable/train">
+                        android:background="@drawable/talk">
 
                         <Button
                             android:layout_width="90px"
